@@ -6,7 +6,7 @@ updates:
     interval: weekly
   open-pull-requests-limit: 10
 - package-ecosystem: nuget
-  directory: "/src/api"
+  directory: "/src/client"
   schedule:
     interval: weekly
   open-pull-requests-limit: 10
