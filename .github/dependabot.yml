@@ -3,7 +3,7 @@ registries:
   public-nuget:
     type: nuget-feed
     url: https://api.nuget.org/v3/index.json
-    token: ""
+    token: ${{ secrets.NOT_SET }}
 updates:
 - package-ecosystem: nuget
   directory: "/src/app"
